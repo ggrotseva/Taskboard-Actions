@@ -36,7 +36,7 @@ jobs:
 
     # Terraform Plan
     - name: Terraform Plan
-      run: terraform plan -out=tfplan.out
+      run: terraform plan -out=tfplan
 
     # Save Terraform plan
     - name: Save Terraform plan
